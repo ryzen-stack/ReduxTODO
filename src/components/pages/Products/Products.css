@@ -1,0 +1,49 @@
+body {
+    background-color: #170414;
+}
+
+.products {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+    margin-left: 300px;
+    margin-top: 40px;
+   
+}
+
+.products li {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    color: wheat;
+    background-color: #022a21;
+}
+.products li:hover{
+    background-color: #b3005a;
+}
+
+.products li h4 {
+    margin: 0;
+    flex: 1;
+   
+}
+
+.products li button {
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(4, 125, 67);
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.products li button:hover {
+    background-color: #0056b3;
+}
+  

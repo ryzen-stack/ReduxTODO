@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+
+nav
+{
+    background-color:darkblue ;
+    
+    width: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+    
+
+}
